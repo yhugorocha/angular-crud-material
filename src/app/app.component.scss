@@ -1,0 +1,29 @@
+mat-toolbar {
+  display: flex;
+  align-items: center;
+  background-color: #962020;
+}
+
+.logo {
+  height: 100%;
+  width: 200px;
+  margin-right: 16px;
+  border-radius: 20px;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+a {
+  margin-left: 16px;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  font-size: 21px;
+  color: #000000;
+}
